@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Install the files themselves
+cp vimrc ~/.vimrc
+cp -r vim ~/.vim
+cp tmux.conf ~/.tmux.conf
+
+# Install VimPlug
+PLUG_URL="https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim"
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs $PLUG_URL
+
+# Install TPM
+mkdir ~/.tmux
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
