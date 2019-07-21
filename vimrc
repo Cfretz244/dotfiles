@@ -21,7 +21,7 @@ set nocp
 syntax on
 filetype plugin indent on
 imap ii <ESC>
-set background=light
+set background=dark
 colorscheme solarized
 set number
 set nowrap
