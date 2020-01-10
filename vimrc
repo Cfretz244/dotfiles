@@ -43,4 +43,5 @@ let g:syntastic_always_populate_loc_list = 1
 
 let g:syntastic_c_check_header = 1
 let g:syntastic_cpp_check_header = 1
+" let g:solarized_termtrans = 1 " <--- Needed under some terminals with tmux
 let vim_markdown_preview_github=1
